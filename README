@@ -1,0 +1,6 @@
+This is the libc++ implementation of standard C++ library shipped with
+Mac OS X 10.7 Lion. This perticular implementation also support gcc
+4.2 shipped with Mac OS X. However, in Mac OS X 10.8, gcc 4.2 can no
+longer compile the default libc++. Therefore, this library is pulled
+out in case that combination of gcc4.2 with libc++ is needed in the
+future.
